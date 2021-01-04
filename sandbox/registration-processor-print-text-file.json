@@ -1,5 +1,5 @@
 {
-	"name": "fullName,LastName",
+	"name": "fullName",
 	"region": "region",
 	"zone": "zone",
 	"kebele": "kebele",
