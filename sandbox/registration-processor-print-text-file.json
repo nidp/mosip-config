@@ -1,7 +1,9 @@
 {
-	"name": "fullName",
-	"region": "region",
-	"zone": "zone",
-	"kebele": "kebele",
-	"phoneNumber": "phone"
+        "name": "fullName",
+        "region": "region",
+        "province": "zone",
+        "city": "woreda",
+        "postalCode": "kebele",
+        "gender": "gender"
+        "phoneNumber": "phone"
 }
