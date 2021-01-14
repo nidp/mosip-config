@@ -3,7 +3,6 @@
         "region": "region",
         "province": "zone",
         "city": "woreda",
-        "postalCode": "kebele",
-        "gender": "gender"
+        "gender": "gender",
         "phoneNumber": "phone"
 }
