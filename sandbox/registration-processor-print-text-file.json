@@ -1,8 +1,8 @@
 {
         "name": "fullName",
         "region": "region",
-        "province": "zone",
-        "city": "woreda",
+        "zone": "zone",
+        "woreda": "woreda",
         "gender": "gender",
         "phoneNumber": "phone"
 }
