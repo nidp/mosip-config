@@ -1,6 +1,4 @@
-# dmz.ingress.base.url=http://dmz.ingress:30080
-
-dmz.ingress.base.url=https://nidp.sandbox.et
+dmz.ingress.base.url=http://dmz.ingress:30080
 
 # Websub base url
 websub.base.url=${dmz.ingress.base.url}
@@ -8,7 +6,7 @@ mosip.event.hubURL=${websub.base.url}/websub
 mosip.partner.id=mpartner-default-print
 mosip.datashare.partner.id=mpartner-default-resident
 mosip.datashare.policy.id=mpolicy-default-resident
-mosip.event.callBackUrl=http://192.168.5.92:8088/v1/print/print/callback/notifyPrint
+mosip.event.callBackUrl=${mosipbox.public.url}/v1/print/print/callback/notifyPrint
 mosip.event.topic=${mosip.partner.id}/CREDENTIAL_ISSUED
 mosip.event.secret={cipher}29ef73e366406ea1e7ac1d43e8d96002c3bd814a8b8cde9a961d897f2dadede5
 csrf.disabled=true
