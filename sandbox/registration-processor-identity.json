@@ -23,6 +23,14 @@
          ],
          "isMandatory":true
       },
+      "residenceStatus":{
+         "value":"residenceStatus",
+         "provider":[
+            "source:REGISTRATION_CLIENT,process:NEW|UPDATE|LOST",
+            "source:RESIDENT,process:ACTIVATED|DEACTIVATED|RES_UPDATE|RES_REPRINT"
+         ],
+         "isMandatory":true
+      },
       "dob":{
          "value":"dateOfBirth",
          "provider":[
