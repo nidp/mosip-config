@@ -4,5 +4,6 @@
         "zone": "zone",
         "woreda": "woreda",
         "gender": "gender",
-        "phoneNumber": "phone"
+        "phoneNumber": "phone",
+        "residenceStatus": "residenceStatus"
 }
