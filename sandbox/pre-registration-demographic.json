@@ -109,6 +109,44 @@
 			],
 			"required": true
 		},
+                {
+                        "id": "kebele",
+                        "description": "kebele",
+                        "labelName": {
+                                "eng": "Kebele",
+                                "amh": "Kebele"
+                        },
+                        "controlType": "dropdown",
+                        "inputRequired": true,
+                        "fieldType": "default",
+                        "validators": [
+                                {
+                                        "type": "regex",
+                                        "validator": "^[a-zA-Z0-9_/ሀ-ፖ]{1,50}$",
+                                        "arguments": []
+                                }
+                        ],
+                        "required": true
+                },
+                {
+                        "id": "houseNumber",
+                        "description": "houseNumber",
+                        "labelName": {
+                                "eng": "House Number",
+                                "amh": "House Number"
+                        },
+                        "controlType": "dropdown",
+                        "inputRequired": true,
+                        "fieldType": "default",
+                        "validators": [
+                                {
+                                        "type": "regex",
+                                        "validator": "^[a-zA-Z0-9_/ሀ-ፖ]{1,50}$",
+                                        "arguments": []
+                                }
+                        ],
+                        "required": true
+                },
 		{
 			"id": "phone",
 			"description": "phone",
