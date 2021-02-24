@@ -117,7 +117,7 @@
                                 "amh": "Kebele"
                         },
                         "controlType": "dropdown",
-                        "inputRequired": true,
+                        "inputRequired": false,
                         "fieldType": "default",
                         "validators": [
                                 {
@@ -136,7 +136,7 @@
                                 "amh": "House Number"
                         },
                         "controlType": "dropdown",
-                        "inputRequired": true,
+                        "inputRequired": false,
                         "fieldType": "default",
                         "validators": [
                                 {
@@ -183,7 +183,7 @@
 					"arguments": []
 				}
 			],
-			"required": true
+			"required": false
 		},
 		{
 			"id": "proofOfAddress",
