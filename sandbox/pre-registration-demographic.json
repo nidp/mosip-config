@@ -135,7 +135,7 @@
                                 "eng": "House Number",
                                 "amh": "የቤት ቁጥር"
                         },
-                        "controlType": "dropdown",
+                        "controlType": "textbox",
                         "inputRequired": true,
                         "fieldType": "default",
                         "validators": [
