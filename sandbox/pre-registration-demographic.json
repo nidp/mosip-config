@@ -1,6 +1,9 @@
 {
 	"identity": [
 		{
+                        "id": "IDSchemaVersion"
+		},
+		{
 			"id": "fullName",
 			"description": "Enter Full Name",
 			"labelName": {
