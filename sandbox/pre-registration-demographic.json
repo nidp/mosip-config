@@ -2,7 +2,7 @@
 	"identity": [
 		{
                         "id": "IDSchemaVersion",
-			"type": "string"
+			"type": "number"
 		},
 		{
 			"id": "fullName",
