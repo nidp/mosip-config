@@ -10,6 +10,7 @@
 			"controlType": "textbox",
 			"inputRequired": true,
 			"fieldType": "default",
+                        "type":"simpleType",
 			"validators": [
 				{
 					"type": "regex",
@@ -29,6 +30,7 @@
 			"controlType": "date",
 			"inputRequired": true,
 			"fieldType": "default",
+                        "type":"string",
 			"validators": [],
 			"required": true
 		},
@@ -42,6 +44,7 @@
 			"controlType": "dropdown",
 			"inputRequired": true,
 			"fieldType": "default",
+                        "type":"simpleType",
 			"validators": [],
 			"required": true
 		},
@@ -55,6 +58,7 @@
 			"controlType": "dropdown",
 			"inputRequired": true,
 			"fieldType": "default",
+                        "type":"simpleType",
 			"validators": [],
 			"required": true
 		},
@@ -67,6 +71,7 @@
 			},
 			"controlType": "dropdown",
 			"inputRequired": true,
+                        "type":"simpleType",
 			"fieldType": "default",
 			"validators": [
 				{
@@ -87,6 +92,7 @@
 			"controlType": "dropdown",
 			"inputRequired": true,
 			"fieldType": "default",
+                        "type":"simpleType",
 			"validators": [],
 			"required": true
 		},
@@ -100,6 +106,7 @@
 			"controlType": "dropdown",
 			"inputRequired": true,
 			"fieldType": "default",
+                        "type":"simpleType",
 			"validators": [
 				{
 					"type": "regex",
@@ -119,6 +126,7 @@
                         "controlType": "dropdown",
                         "inputRequired": true,
                         "fieldType": "default",
+                        "type":"simpleType",
                         "validators": [
                                 {
                                         "type": "regex",
@@ -138,6 +146,7 @@
                         "controlType": "textbox",
                         "inputRequired": true,
                         "fieldType": "default",
+                        "type":"string",
                         "validators": [
                                 {
                                         "type": "regex",
@@ -196,6 +205,7 @@
 			],
 			"controlType": "fileupload",
 			"inputRequired": true,
+                        "type":"string",
 			"validators": [],
 			"required": true
 		},
