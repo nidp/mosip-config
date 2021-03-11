@@ -1,7 +1,8 @@
 {
 	"identity": [
 		{
-                        "id": "IDSchemaVersion"
+                        "id": "IDSchemaVersion",
+			"type": "string"
 		},
 		{
 			"id": "fullName",
